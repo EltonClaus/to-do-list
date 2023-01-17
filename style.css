@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.divInput {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 60px;
+  align-items: center;
+  background-color: gray;
+  margin: 12px;
+  border-radius: 10px;
+}
+.divInput h1 {
+  position: absolute;
+  bottom: 39vw;
+  padding: 12px;
+  text-align: center;
+  border: none;
+}
+
+.divInput button {
+    background-color: #00eded;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+    margin: 2px;
+    transition: all .3s;
+    cursor: pointer;
+    width: 10%;
+    font-weight: bold; 
+  }
+  .divInput button:hover {
+    background-color: #76e3e3;
+    color: #fff
+  }
+.result {
+ 
+  text-align: center;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.result h3{
+  font-size: 20px;
+}
+
+.result button {
+    background-color: purple;
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px;
+    border: none;
+    font-weight: bold;
+    transition: all .3s;
+    gap: 10px;
+}
+
+.result button:hover {
+    background-color: gray;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  display: none; 
+}
+.conteudo-modal {
+  margin: 0 auto;
+  margin-top: 3%;
+  max-width: 30vw;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10vh 5vh;
+  position: relative;
+  top: 8rem;
+  right: .9rem;
+}
+.header-modal{
+  font-weight: bold;
+  position: absolute;
+  right: 5rem;
+  top: 1rem;
+}
+.header-modal-close {
+  position: absolute;
+  top: 7rem;
+  left: 13rem;
+  width: 4rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .divInput h1 {
+    position: absolute;
+    bottom: 52vw;
+    padding: 12px;
+    text-align: center;
+    border: none;
+  }
+   
+
+}

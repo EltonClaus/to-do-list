@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="divInput">
+      <h1>Lista de Tarefa</h1>
+      <input type="text" placeholder="Digite sua Tarefa" id="textInput">
+      <button id="btnAdd"> Adicionar</button>
+  </div>
+ <div id="campValue" class="result">
+    
+ </div>
+ <div id="carregaModal" class="modal">
+      <div class="conteudo-modal">
+          <div class="header-modal">
+            <h2 class="title-modal">Editar Tarefa</h2>
+          </div>
+          <div class="body-Modal">
+              <input type="text" id="editInput">
+              <button id="btnModal">Adicionar</button>
+          </div>
+          <div class="footer-Modal">
+              <button class="header-modal-close" onclick="closeModal()">Fechar</button>
+          </div>
+      </div>
+ </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
